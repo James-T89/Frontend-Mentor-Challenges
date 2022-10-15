@@ -1,0 +1,19 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  margin: 0;
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Dark-blue-main: hsl(217, 54%, 11%);
+  --Dark-blue-card: hsl(216, 50%, 16%);
+  --Dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: var(--Dark-blue-main);
+}
