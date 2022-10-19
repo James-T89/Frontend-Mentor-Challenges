@@ -45,9 +45,11 @@ img {
 
 .overlay-wrapper {
   position: relative;
+  height: 274px;
 }
 
 .eye-wrapper {
+  display: none;
   top: 0;
   width: 274px;
   height: 274px;
@@ -64,6 +66,11 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.overlay-wrapper:hover > * { 
+  display: block;
+  cursor: pointer;
 }
 
 .user-avatar {
