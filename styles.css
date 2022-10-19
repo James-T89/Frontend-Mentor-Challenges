@@ -80,16 +80,25 @@ img {
 .user {
   border-top: 2px solid var(--Dark-blue-line);
   padding-block-start: .5rem;
-  vertical-align: text-top;
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 1rem;
 }
 
 .user-name {
   color: var(--White);
 }
 
+.user-text {
+  margin: 0;
+  padding-block-start: .25rem;
+}
+
 .attribution {
   margin-block-start: 1rem;
   color: var(--Soft-blue);
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
