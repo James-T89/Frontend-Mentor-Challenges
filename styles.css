@@ -33,7 +33,6 @@ body {
 }
 
 
-
 .card-styles {
   background-color: var(--Dark-blue-card);
 }
@@ -42,6 +41,29 @@ img {
   max-inline-size: 100%;
   block-size: auto;
   border-radius: 25px;
+}
+
+.overlay-wrapper {
+  position: relative;
+}
+
+.eye-wrapper {
+  top: 0;
+  width: 274px;
+  height: 274px;
+  position: absolute;
+  background-color: var(--Cyan);
+  opacity: .7;
+  border-radius: 25px;
+  z-index: 10;
+}
+
+.eye {
+  background-color: var(--Cyan);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .user-avatar {
@@ -56,6 +78,11 @@ img {
   font-size: 18px;
   font-weight: 600;
   padding-top: 1rem;
+}
+
+.hover:hover {
+  cursor: pointer;
+  color: var(--Cyan);
 }
 
 .text-color {
